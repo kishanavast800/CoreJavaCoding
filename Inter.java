@@ -1,10 +1,10 @@
-package World;
-import java.util.*;
-import java.io.*;
+package World;      //its my package
+import java.util.*; //its used for importing scanner class
+import java.io.*;//its used for exception handling
 public class Inter
 {
 	
-	public static void main(String[] args)throws IOException
+	public static void main(String[] args)throws IOException      //its a main function
 	{
 		int i,j;
 		Scanner buf = new Scanner(System.in);
@@ -35,6 +35,6 @@ public class Inter
 				}
 			}
 		}
-	}
-}
+	} //ending of main function
+}  //ending of class
 			
